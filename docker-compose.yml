@@ -30,5 +30,5 @@ services:
     ports:
       - "80:80"
     volumes:
-      - e:\FileRun\html:/var/www/html
-      - e:\FileRun\user-files:/user-files
+      - /media/user/downloads1/Share/html:/var/www/html
+      - /media/user/downloads1/Share/user-files:/user-files
